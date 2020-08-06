@@ -1,6 +1,6 @@
-#Experiment1
+# Experiment1
 
-##Aim of the Experiment
+## Aim of the Experiment
 To impement date link layer framing techniques such as
 1.character count 2.character stuffing and 3.bit stuffing
 
@@ -10,7 +10,7 @@ To impement date link layer framing techniques such as
 3.
 4.
 
-###Output
+### Output
 
 ![Output](Desktop.jpg.png)
 
