@@ -7,7 +7,7 @@ To implement data link layer framing method character count.
 1.Read the length and number of frames.\
 2.The frame will give data with the character and its length using string length.\
 3.The data is printed combining both the frames.\
-4.The data will be printed seperately in the frames form.\
+4.The data will be printed seperately in the frames form.
 
 ### Output
 
