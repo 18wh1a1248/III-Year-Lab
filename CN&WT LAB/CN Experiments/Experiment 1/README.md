@@ -11,6 +11,6 @@ To implement data link layer framing method character count.
 
 ### Output
 
-![Output](Character Count OP)
+![Output](Character Count OP.jpg)
 
 
