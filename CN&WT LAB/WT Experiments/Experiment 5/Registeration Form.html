@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			body{
+				font-family: Calibri, Helvetica, sans-serif;
+				background-color: white;
+			}
+			.container {
+				margin-right: 670px;
+				margin-left: 670px;
+				height: 1100px;
+				width: 370px;
+				padding: 150px;
+				background-color: white;
+			}
+
+			input[type=text], input[type=password], textarea {
+				width: 100%;
+				padding: 15px;
+				margin: 5px 0 22px 0;
+				display: inline-block;
+				border: none;
+				background: #f1f1f1;
+			}
+			input[type=text]:focus, input[type=password]:focus {
+				background-color: skyblue;
+				outline: none;
+			}
+			div {
+				padding: 10px 0;
+			}
+			hr {
+				border: 1px solid #f1f1f1;
+				margin-bottom: 25px;
+			}
+			.registerbtn {
+				background-color: #4CAF50;
+				color: white;
+				padding: 16px 20px;
+				margin: 8px 0;
+				border: none;
+				cursor: pointer;
+				width: 100%;
+				opacity: 0.9;
+			}
+			.registerbtn:hover {
+				opacity: 1;
+			}
+			
+			.bg-img {
+				background-image: url(
+				"https://thumbnails.yayimages.com/3/fe8/3fe8830.jpg");
+		
+				background-repeat: no-repeat;
+				background-size: 670px 1340px;
+			}
+			 
+		</style>
+	</head>
+	<body>
+		<div class="bg-img">
+		<form>
+			<div class="container">
+			<center>
+				<h1> Registeration Form</h1> </center>
+			<hr>
+			<label><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required>
+			<label><b>Firstname</b></label>
+			<input type="text" name="firstname" placeholder= "Enter Firstname" size="15" required />
+			
+			<label><b>Lastname:</b></label>
+			<input type="text" name="lastname" placeholder="Enter Lastname" size="15"required />
+			
+			<div>
+				<label>
+					<b>Gender :</b>
+				</label><br>
+				<input type="radio" value="Male" name="gender" checked > Male
+				<input type="radio" value="Female" name="gender"> Female
+			</div>
+			<div>
+			<label for="birthday"><b>Date Of Birth:</b></label>
+			<input type="date" id="birthday" name="birthday">
+			</div>
+			<label>
+				<b>Mobile Number :</b>
+			</label>
+			<input type="text" name="phone" placeholder="Enter your phone number" size="10"/ required>
+			<b>Address :</b>
+			<textarea cols="50" rows="3" placeholder="Address" value="address" >
+			</textarea>
+			
+		    <div>
+		    <label><b>Select Your Hobbies</b></label><br>
+			<input type="checkbox" name="hobby" value="sports" id="sport">
+			<label for="sport">Sports</label><br>
+			<input type="checkbox" name="hobby" value="music" id="music">
+			<label for="music">Music</label><br>
+			<input type="checkbox" name="hobby" value="reading" id="read">
+			<label for="read">Reading</label>
+			</div>
+			
+			<label for="email">
+				<b>Email</b></label>
+			<input type="text" placeholder="Enter Email" name="email" required>
+
+			<label for="psw">
+				<b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required>
+
+			<label for="psw-repeat">
+				<b>Re-Enter Password</b></label>
+			<input type="password" placeholder="Retype Password" name="psw-repeat" required>
+			
+			<form action="upload.php" method="post" enctype="multipart/form-data">
+				<b>Select image to upload:</b>
+				<input type="file" name="fileToUpload" id="fileToUpload">
+			</form>
+			
+			<button type="submit" class="registerbtn">Register</button>
+		</form>
+		</div>
+	</body>
+</html>
+			
