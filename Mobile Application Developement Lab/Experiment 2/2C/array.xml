@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="states_array">
+        <item>Andhra Pradesh</item>
+        <item>Tamilnadu</item>
+        <item>Punjab</item>
+        <item>Goa</item>
+        <item>Telangana</item>
+        <item>Kerala</item>
+        <item>Oddisa</item>
+        <item>Other</item>
+    </string-array>
+</resources>
